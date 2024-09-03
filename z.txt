@@ -1,0 +1,61 @@
+public class MergeSort {
+    public static void main(String[] args) {
+        int arr
+    }
+
+    // public static void sort(int arr[],int low,int high){
+    //     if(low==high) return;
+    //         int mid=(low+high)/2;
+    //         sort(arr, low, mid);
+    //         sort(arr, mid+1, high);
+    //     // }
+    //     mergeSort(arr,low,mid,high);
+    //     // return;
+    // }
+
+    // public static void mergeSort(int[] arr, int low, int mid, int high) {
+    //     int sortedArr[]=new int[high-low+1];
+    //     int i=0;
+    //     int l=low;
+    //     int r=mid+1;
+
+    //     while(l<=mid && mid<=r){
+    //         if(arr[l]<=arr[r]){
+    //             sortedArr[i++]=arr[l++];
+    //             // i++;
+    //             // l++;
+    //         }
+    //         else{
+    //             sortedArr[i++]=arr[r++];
+    //             // i++;
+    //             // r++;
+    //         }
+    //     }
+    //         while(l<=mid){
+    //             sortedArr[i++]=arr[l++];
+    //             // i++;
+    //             // l++;
+    //         }
+    //         while(r>=mid){
+    //             sortedArr[i++]=arr[r++];
+    //             // i++;
+    //             // r++;
+    //         }
+
+    //         for(int j=l,k=0;j<=r;j++){
+    //             // int k=0;
+    //             arr[k] = sortedArr[j];
+    //         }
+
+    //     for(int j:sortedArr){
+    //         System.out.print(j+" ");
+    //     }
+
+    // }
+
+    // public static void main(String[] args) {
+    //     int arr[]={2,5,1,3};
+    //     int n=arr.length-1;
+    //     sort(arr, 0,n);
+    // }
+//}
