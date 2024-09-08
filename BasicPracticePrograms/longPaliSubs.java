@@ -4,12 +4,13 @@
 public class longPaliSubs {
 
     public static void main(String[] args) {
-        String s = "abccccdd";
+        String s = "aba";
         String rev = "";
         // int[] n={1,2,3,4};
 
         for(int i=0;i<s.length();i++){
             rev = s.charAt(i)+rev;
+            // System.out.println(rev);
         }
 
         

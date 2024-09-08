@@ -1,29 +1,32 @@
 class Armstrong{
     public static void main(String[] args) {
-        int n=1634;
+        int n=370;
         int og_n=n;
-        int final_n=n;
+        // int final_n=n;
         int sum=0;
         int digits=0;
         // int final=n;
         
-        while(n!=0){
+        int temp=n;
+        while(temp!=0){
             // int rem=n%10;
             digits++;
-            n/=10;
+            temp/=10;
         }
-        
-        while(og_n>0){
+
+        temp=n;
+        while(temp>0){
             int power=1;
-            int rem=og_n%10;
+            int rem=temp%10;
             for (int i = 0; i < digits; i++) {
                 power *= rem;
             }
-            sum = sum+power;
-            og_n/=10;
+            sum+=power;
+            // sum = sum+(int)Math.pow(rem, digits);
+            temp/=10;
         }
 
-        if(sum==final_n){
+        if(sum==og_n){
             System.out.println("Armstrong");
         }else{
             System.out.println("Not Armstrong");

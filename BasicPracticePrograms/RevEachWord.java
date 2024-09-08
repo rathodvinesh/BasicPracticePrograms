@@ -5,22 +5,23 @@ public class RevEachWord {
         String[] words = str.split("\s");
         String revString = "";
 
-        /*for(String eachWord:words){
+        for(String eachWord:words){
             String revWords = "";
             for(int i=eachWord.length()-1;i>=0;i--){
                 revWords+=eachWord.charAt(i);
+                System.out.println(revWords);
             }
             revString+=revWords+" ";
-        }*/
-
-        for(String w:words){
-            
-            StringBuilder sb = new StringBuilder(w);
-            String revWords = sb.reverse().toString();
-
-            revString+=revWords+" ";
-
         }
+
+        // for(String w:words){
+            
+        //     StringBuilder sb = new StringBuilder(w);
+        //     String revWords = sb.reverse().toString();
+
+        //     revString+=revWords+" ";
+
+        // }
 
         System.out.println(revString);
     }

@@ -7,13 +7,13 @@ public class MissingEle {
 
         for(int i=0;i<=n;i++){
             sum1+=a[i];
-            System.out.println(sum1);
+            // System.out.println(sum1);
         }
-        System.out.println("Element mila "+a[0]+" "+a[n]);
+        // System.out.println("Element mila "+a[0]+" "+a[n]);
 
         for(int i=a[0];i<=a[n];i++){
             sum2+=i;
-            System.out.println(sum2);
+            // System.out.println(sum2);
         }
 
         System.out.println("The element missing is "+(sum2-sum1));

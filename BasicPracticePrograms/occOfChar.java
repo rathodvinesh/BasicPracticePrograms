@@ -4,7 +4,7 @@ public class occOfChar {
 
         int c = s.length();
         System.out.println(c);
-        int cAfterRemove = s.replace("J", "").length();
+        int cAfterRemove = s.replace("j", "").length();
         System.out.println(cAfterRemove);
         int occ = c-cAfterRemove;
         System.out.println(occ);

@@ -1,7 +1,7 @@
 public class GCD {
     public static void main(String[] args) {
-        int n1=5;
-        int n2=10;
+        int n1=46;
+        int n2=22;
         int gcd=0;
 
         // int ans = (n1>n2)?n1:n2;
@@ -9,6 +9,7 @@ public class GCD {
         for(int i=1;i<=n1 && i<=n2;i++){
             if(n1%i==0 && n2%i==0){
                 gcd=i;
+                // break;
             }
         }
         System.out.println(gcd);

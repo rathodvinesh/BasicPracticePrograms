@@ -4,7 +4,7 @@ public class Rev {
         int l=2;
         int r=4;
         int temp;
-        while(l<=r){
+        while(arr[l]<arr[r]){
             temp=arr[l];
             arr[l]=arr[r];
             arr[r]=temp;

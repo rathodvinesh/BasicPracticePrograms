@@ -4,7 +4,7 @@ public class reverseNum {
 
         int n = 12315;
         int rev = 0;
-        int og=n;
+        // int og=n;
 
         // for
 
@@ -17,9 +17,9 @@ public class reverseNum {
             System.out.println("num="+n);
         }
 
-        if(og==rev){
-            System.out.println("Is Pali");
-        }
+        // if(og==rev){
+        //     System.out.println("Is Pali");
+        // }
 
         System.out.println(rev);
         // if(n==rev){

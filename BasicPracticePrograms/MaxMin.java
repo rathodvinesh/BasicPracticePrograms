@@ -1,6 +1,6 @@
 class MaxMin{
     public static void main(String[] args) {
-        int[] array ={3, 2, 1, 56, 10000, 167};
+        int[] array ={3, 2, 1254, 56, 10000, 1695867};
 
         int mx = array[0];
         int mn = array[0];

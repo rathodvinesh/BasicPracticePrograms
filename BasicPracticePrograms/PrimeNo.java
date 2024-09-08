@@ -1,25 +1,22 @@
 public class PrimeNo {
     public static void main(String[] args) {
-        // boolean isPrime = true;
-        int st=1;
-        int stop=100;
-        // while(st>=stop){
+        boolean isPrime = true;
+        
+        int n=6;
 
-        // }
-        for(int i=st;i<=stop;i++){
-            // for(int j=st+1;j<=i;j++){
-                if(st%2==0){
-                    System.out.print(st+" ");
-                    st++;
-                    // break;
-                // }
+        for(int i=2;i*i<=n;i++){
+            if(n%i==0){
+                isPrime=false;
+                break;
             }
-
-            // if(st%i!=0){
-            // }
-            // else{
-            //     System.out.println(i);
-            // }
         }
+
+        if(isPrime){
+            System.out.println("Prime");
+        }
+        else{
+            System.out.println("Not Prime");
+        }
+    
     }
 }
