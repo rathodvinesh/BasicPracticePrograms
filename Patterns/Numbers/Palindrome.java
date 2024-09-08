@@ -40,11 +40,36 @@ class Numbers{
             }
             System.out.println();
         }
+    }
 
-        // for(int i=1;i<=n;i++){
+    public void diamond(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=i;j<=n;j++){
+                System.out.print(" ");
+            }
 
-        //     System.out.println();
-        // }
+            for(int j=1;j<i;j++){
+                System.out.print(j);
+            }
+            for(int j=i;j>=1;j--){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
+        for(int i=n-1;i>=1;i--){
+            for(int j=n;j>=i;j--){
+                System.out.print(" ");
+            }
+
+            for(int j=1;j<i;j++){
+                System.out.print(j);
+            }
+            for(int j=i;j>=1;j--){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
     }
 }
 
@@ -53,6 +78,6 @@ public class Palindrome {
         int n=5;
         Numbers no = new Numbers();
         // no.decreasingTri(n);
-        no.hill(n);
+        no.diamond(n);
     }
 }
