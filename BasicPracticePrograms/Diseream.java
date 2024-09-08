@@ -1,8 +1,7 @@
 public class Diseream {
     public static void main(String[] args) {
-        int n=135;
+        int n=625;
         int og_n=n;
-        int final_check=n;
         int sum=0;
         int digits=0;
         int power=1;
@@ -12,19 +11,22 @@ public class Diseream {
             n/=10;
         }
 
-        while(og_n>0){
-            int rem=og_n%10;
+        n=og_n;
+        while(n>0){
+            int rem=n%10;
             for(int i=1;i<=digits;i++){
                 power*=rem;
             }
             digits--;
             sum+=power;
-            og_n/=10;
+            n/=10;
             power=1;
         }
 
-        if(sum==final_check){
+        if(sum==og_n){
             System.out.print("Is Diseream");
+        }else{
+            System.out.print("Not Diseream");
         }
     }
 }
