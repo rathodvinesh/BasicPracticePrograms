@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Quinnox;
 
 public class Anagram {
     public static void main(String[] args) {

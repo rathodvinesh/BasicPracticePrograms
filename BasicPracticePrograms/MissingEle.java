@@ -11,7 +11,7 @@ public class MissingEle {
         }
         // System.out.println("Element mila "+a[0]+" "+a[n]);
 
-        for(int i=a[0];i<=a[n];i++){
+        for(int i=a[0];i<=a[n];i++){                    
             sum2+=i;
             // System.out.println(sum2);
         }
